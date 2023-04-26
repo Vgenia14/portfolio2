@@ -3,42 +3,29 @@ import React, { useContext, useState } from "react";
 import { LanguageContext } from "../context/LangContext";
 import Book from "../components/Book";
 import * as emailjs from "emailjs-com";
+import { Link } from "react-router-dom";
 
 // IMAGES
 import skype from "../svg/skype.svg";
 import linkedIn from "../svg/linkedin.svg";
 import emailIMG from "../svg/envelope-solid.svg";
 import gitHub from "../svg/github.svg";
-import { Link } from "react-router-dom";
-
-emailjs.init("");
-//FIREBASE
-// import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-// import {
-//   getFirestore,
-//   doc,
-//   setDoc,
-// } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js";
-
-// const app = initializeApp(firebaseConfig);
-// const db = getFirestore(app);
 
 export default function Contacts() {
   const { isGer } = useContext(LanguageContext);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  // const [date, setDate] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_yfc7jmo",
-        "template_z6zb69m",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         e.target,
-        "oSg39nE41wY3H5y75"
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -58,34 +45,6 @@ export default function Contacts() {
       );
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // const newMessage = {
-  //   //   message,
-  //   //   email,
-  //   //   name,
-  //   //   date,
-  //   // };
-  //   //   setDoc(doc(db, "messageFromMyPortfolio", date), { newMessage })
-  //   //     .then(() => {
-  //   //       alert("Nachricht gesendet");
-  //   //     })
-  //   //     .catch((error) => {
-  //   //       alert("error");
-  //   //       console.log(error);
-  //   //     });
-  //   // setName("");
-  //   // setEmail("");
-  //   // setMessage("");
-  //   // alert("error");
-  //   let templateParams = {
-  //     name: "Evgeniia",
-  //     notes: "Nachricht",
-  //   };
-
-  // useEffect(() => {
-  //   setDate(new Date().toString());
-  // }, [message, name, email]);
   return (
     <Book
       children1={
