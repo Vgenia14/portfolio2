@@ -39,7 +39,7 @@ export default function Project() {
     if (id.id === undefined) {
       navigate(`/projects/1`);
     }
-  }, [id]);
+  }, [id, navigate]);
   return (
     <Book
       children1={<ProjectsList projects={data}/>}
