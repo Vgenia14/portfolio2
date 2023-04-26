@@ -25,7 +25,7 @@ export default function Contacts() {
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         e.target,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        "oSg39nE41wY3H5y75"
       )
       .then(
         (result) => {
