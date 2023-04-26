@@ -1,0 +1,130 @@
+/* PAGE 1 */
+.container_card {
+  height: 100%;
+}
+.container_card h1 {
+  font-size: 3.8vw;
+  margin: 5vh;
+  color: var(--color-text);
+  text-shadow: 0 0 1px var(--color-bg2);
+}
+.container_card a {
+  color: var(--color-text);
+}
+.box_content {
+  margin: 10vh auto;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+.container_card .active h2,
+.container_card .active span,
+.container_card .active p {
+  color: var(--color-ac);
+}
+.container_card .link_to_site span{
+  margin-left: 0.3vw;
+}
+/* INHALT */
+.box_content .content_line {
+  width: 27vw;
+  text-align: center;
+  margin: 1vw;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 73% 25%;
+  font-size: 1vw;
+}
+/* GRID TITLE */
+.content_line h2 {
+  grid-column: 1/2;
+}
+.link_to_site span {
+  font-size: 1vw;
+  font-weight: 400;
+}
+/* GRID NUMMER */
+.id_number {
+  grid-column: 2/3;
+  justify-self: start;
+}
+
+/* GRID BUTTON */
+.content_line button {
+  grid-column: 2/3;
+  justify-self: end;
+  width: 5vw;
+  height: 3vh;
+  font-size: 0.8vw;
+}
+.container_card .link_to_site {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* PAGE 2 */
+.card_right {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  height: 90%;
+  overflow-y: auto;
+}
+/* BILD IM CARD RIGHT */
+.box_main_image {
+  width: 100%;
+  max-height: 40vh;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.card_right .main_image {
+  width: 100%;
+  height: auto;
+}
+/* INFO IM CARD RIGHT */
+.box_project_info {
+  margin-top: 1.5vh;
+  display: flex;
+  flex-direction: column;
+}
+.box_project_info h2 {
+  font-size: 2vw;
+}
+.box_project_info ul {
+  text-align: left;
+  padding-left: 1vw;
+}
+.box_project_info span {
+  font-weight: bold;
+  font-size: 1.1vw;
+}
+.box_project_info li {
+  font-size: 1vw;
+  font-weight: 300;
+  margin: 1vh 0;
+}
+/* BOX SWITCH */
+.box_switch {
+  display: flex;
+  gap: 2vw;
+}
+.box_switch img {
+  width: 1.5vw;
+  height: 2.5vh;
+  color: var(--color-bg2);
+}
+.box_switch img:hover {
+  box-shadow: 0 0 2px;
+  cursor: pointer;
+}
+.box_switch p {
+  font-size: 1vw;
+}

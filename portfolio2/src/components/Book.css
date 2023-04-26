@@ -1,0 +1,57 @@
+.container_book {
+  width: 75vw;
+  height: 95vh;
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  background-color: var(--color-bg2);
+  grid-template-columns: 35vw 35vw;
+  grid-template-rows: 92vh;
+  border: 1px solid black 50%;
+  justify-content: center;
+  align-content: center;
+}
+.container_book .page1 {
+  grid-column: 1/2;
+  background-color: var(--color-bg3);
+  position: relative;
+  box-shadow: -0.6vh 0 rgb(172, 172, 172), -1.2vh 0 rgb(206, 206, 206),
+    -1.8vh 0 rgb(131, 131, 131), -5px 0px 5px #26041228 inset,
+    -8px 0px 14px rgb(255, 255, 242) inset, -40px 0px 40px #2604121e inset;
+  border-right: 1.5px solid #26041275;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_book .page2 {
+  background-color: var(--color-bg3);
+  grid-column: 2/3;
+  box-shadow: 0.6vh 0 rgb(172, 172, 172), 1.2vh 0 rgb(206, 206, 206),
+    1.8vh 0 rgb(131, 131, 131), 5px 0px 5px #26041228 inset,
+    8px 0px 14px rgb(255, 255, 242) inset, 40px 0px 40px #2604121e inset;
+  border-left: 1.5px solid #26041275;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container_book .page1::before {
+  content: "";
+  background-color: var(--color-6);
+  position: absolute;
+  top: -1.5vh;
+  left: 33.9vw;
+  width: 2.2vw;
+  height: 1.5vh;
+  box-shadow: 0.1vw 0px var(--color-bg3), -0.1vw 0px var(--color-bg3);
+}
+.container_book .page1::after {
+  content: "";
+  background-color: var(--color-6);
+  position: absolute;
+  bottom: -1.5vh;
+  left: 33.9vw;
+  width: 2.2vw;
+  height: 1.5vh;
+  box-shadow: 0.1vw 0px var(--color-bg3), -0.1vw 0px var(--color-bg3);
+}

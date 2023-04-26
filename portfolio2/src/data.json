@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "title": "Spotify",
+    "url": "www.",
+    "photo": "Project_Spotify_1.png",
+    "date": "12.2022",
+    "instrumente": "HTML, CSS, Firebase, JavaScript",
+    "discription": "",
+    "developer": "Gruppe von 4 Personen",
+    "developer_ru": "группа из 4-х человек",
+    "title_ru": "Spotify",
+    "discription_ru": ""
+  },
+  {
+    "id": "2",
+    "title": "Rezepten",
+    "url": "www.",
+    "photo": "Project_Recips_1.png",
+    "date": "02.2023",
+    "instrumente": "HTML, CSS, JavaScript, React, Firebase",
+    "discription": "Für Erstellung der eigenen Rezepten. Ich arbeite weiter an diesem Projekt und werde es in meiner Freizeit weiterentwickeln",
+    "developer": "alleine",
+    "developer_ru": "самостоятельно",
+    "title_ru": "рецепты",
+    "discription_ru": "создание своих собственных рецептов. Продолжаю работать над этим проектом в свободное время "
+  },
+
+  {
+    "id": "3",
+    "title": "..................",
+    "url": "www.........",
+    "photo": "manarola-vertical-free-photo-2210x3315.jpg",
+    "date": ".........",
+    "instrumente": ".........",
+    "discription": ".........",
+    "developer": ".........",
+    "developer_ru": ".........",
+    "title_ru": ".........",
+    "discription_ru": "........."
+  },
+  {
+    "id": "4",
+    "title": "..................",
+    "url": "www.........",
+    "photo": "manarola-vertical-free-photo-2210x3315.jpg",
+    "date": ".........",
+    "instrumente": ".........",
+    "discription": ".........",
+    "developer": ".........",
+    "developer_ru": ".........",
+    "title_ru": ".........",
+    "discription_ru": "........."
+  },
+  {
+    "id": "5",
+    "title": "..................",
+    "url": "www.........",
+    "photo": "manarola-vertical-free-photo-2210x3315.jpg",
+    "date": ".........",
+    "instrumente": ".........",
+    "discription": ".........",
+    "developer": ".........",
+    "developer_ru": ".........",
+    "title_ru": ".........",
+    "discription_ru": "........."
+  }
+]
