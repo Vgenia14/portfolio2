@@ -2,6 +2,7 @@ import "./Contacts.css";
 import React, { useContext, useState } from "react";
 import { LanguageContext } from "../context/LangContext";
 import Book from "../components/Book";
+import * as emailjs from "emailjs-com";
 
 // IMAGES
 import skype from "../svg/skype.svg";
@@ -9,6 +10,8 @@ import linkedIn from "../svg/linkedin.svg";
 import emailIMG from "../svg/envelope-solid.svg";
 import gitHub from "../svg/github.svg";
 import { Link } from "react-router-dom";
+
+emailjs.init("");
 //FIREBASE
 // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
 // import {
@@ -27,27 +30,59 @@ export default function Contacts() {
   const [message, setMessage] = useState("");
   // const [date, setDate] = useState("");
 
-  const handleSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
-    // const newMessage = {
-    //   message,
-    //   email,
-    //   name,
-    //   date,
-    // };
-    //   setDoc(doc(db, "messageFromMyPortfolio", date), { newMessage })
-    //     .then(() => {
-    //       alert("Nachricht gesendet");
-    //     })
-    //     .catch((error) => {
-    //       alert("error");
-    //       console.log(error);
-    //     });
-    setName("");
-    setEmail("");
-    setMessage("");
-    alert("error");
+
+    emailjs
+      .sendForm(
+        "service_yfc7jmo",
+        "template_z6zb69m",
+        e.target,
+        "oSg39nE41wY3H5y75"
+      )
+      .then(
+        (result) => {
+          alert(
+            isGer
+              ? "Ihre Nachricht wurde gesendet"
+              : "Ваше сообщение успешно отправлено"
+          );
+          setName("");
+          setEmail("");
+          setMessage("");
+          console.log(result.text);
+        },
+        (error) => {
+          alert(error.text);
+        }
+      );
   };
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // const newMessage = {
+  //   //   message,
+  //   //   email,
+  //   //   name,
+  //   //   date,
+  //   // };
+  //   //   setDoc(doc(db, "messageFromMyPortfolio", date), { newMessage })
+  //   //     .then(() => {
+  //   //       alert("Nachricht gesendet");
+  //   //     })
+  //   //     .catch((error) => {
+  //   //       alert("error");
+  //   //       console.log(error);
+  //   //     });
+  //   // setName("");
+  //   // setEmail("");
+  //   // setMessage("");
+  //   // alert("error");
+  //   let templateParams = {
+  //     name: "Evgeniia",
+  //     notes: "Nachricht",
+  //   };
+
   // useEffect(() => {
   //   setDate(new Date().toString());
   // }, [message, name, email]);
@@ -102,7 +137,7 @@ export default function Contacts() {
       }
       children2={
         <div className="container_Contact_right">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={sendEmail} className="form_mail">
             <label htmlFor="message">
               {isGer ? "Nachricht" : "Сообщение"}
 
@@ -137,7 +172,7 @@ export default function Contacts() {
               <input
                 type="email"
                 name="email"
-                placeholder={isGer ? "ihre E-Mail Adresse" : "Ваш E-Mail адрес"}
+                placeholder={isGer ? "ihre E-Mail Adresse" : "Ваш E-Mail"}
                 value={email}
                 required
                 onChange={(e) => {
