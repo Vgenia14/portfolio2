@@ -1,19 +1,6 @@
 [
   {
-    "id": "5",
-    "title": "Spotify",
-    "url": "https://mini-project-spotyfy.vercel.app/",
-    "photo": "Project_Spotify_1.png",
-    "date": "12.2022",
-    "instrumente": "HTML, CSS, Firebase, JavaScript",
-    "discription": "",
-    "developer": "Gruppe von 4 Personen",
-    "developer_ru": "группа из 4-х человек",
-    "title_ru": "Spotify",
-    "discription_ru": ""
-  },
-  {
-    "id": "4",
+    "id": "3",
     "title": "Rezepten",
     "url": "https://kochplaner.vercel.app/",
     "photo": "Project_Recips_1.png",
@@ -25,9 +12,22 @@
     "title_ru": "рецепты",
     "discription_ru": "создание своих собственных рецептов. Продолжаю работать над этим проектом в свободное время "
   },
+  {
+    "id": "2",
+    "title": "Spotify",
+    "url": "https://mini-project-spotyfy.vercel.app/",
+    "photo": "Project_Spotify_1.png",
+    "date": "12.2022",
+    "instrumente": "HTML, CSS, Firebase, JavaScript",
+    "discription": "",
+    "developer": "Gruppe von 4 Personen",
+    "developer_ru": "группа из 4-х человек",
+    "title_ru": "Spotify",
+    "discription_ru": ""
+  },
 
   {
-    "id": "3",
+    "id": "1",
     "title": "tindog-page",
     "url": "https://tindog-page.vercel.app/",
     "photo": "tindog_tablet.png",
@@ -37,32 +37,6 @@
     "developer": ".........",
     "developer_ru": "09.2022",
     "title_ru": "tindog-page ",
-    "discription_ru": "........."
-  },
-  {
-    "id": "2",
-    "title": "..................",
-    "url": "www.........",
-    "photo": "manarola-vertical-free-photo-2210x3315.jpg",
-    "date": ".........",
-    "instrumente": ".........",
-    "discription": ".........",
-    "developer": ".........",
-    "developer_ru": ".........",
-    "title_ru": ".........",
-    "discription_ru": "........."
-  },
-  {
-    "id": "1",
-    "title": "..................",
-    "url": "www.........",
-    "photo": "manarola-vertical-free-photo-2210x3315.jpg",
-    "date": ".........",
-    "instrumente": ".........",
-    "discription": ".........",
-    "developer": ".........",
-    "developer_ru": ".........",
-    "title_ru": ".........",
     "discription_ru": "........."
   }
 ]
