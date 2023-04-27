@@ -22,7 +22,7 @@ export default function ProjectsList({ projects }) {
             </NavLink>
 
             <button>
-              <Link>{isGer ? "zur Seite" : "на сайт"}</Link>
+              <Link to={project.url} target="_blank">{isGer ? "zur Seite" : "на сайт"}</Link>
             </button>
           </div>
         ))}

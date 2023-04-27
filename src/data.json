@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Spotify",
-    "url": "www.",
+    "url": "https://mini-project-spotyfy.vercel.app/",
     "photo": "Project_Spotify_1.png",
     "date": "12.2022",
     "instrumente": "HTML, CSS, Firebase, JavaScript",
@@ -15,7 +15,7 @@
   {
     "id": "2",
     "title": "Rezepten",
-    "url": "www.",
+    "url": "https://kochplaner.vercel.app/",
     "photo": "Project_Recips_1.png",
     "date": "02.2023",
     "instrumente": "HTML, CSS, JavaScript, React, Firebase",

@@ -10,7 +10,6 @@ import { LanguageContext } from "../../context/LangContext";
 import backwardStep from "../../svg/chevron-left-solid.svg";
 import forwardStep from "../../svg/chevron-right-solid.svg";
 
-
 export default function Project() {
   const { isGer } = useContext(LanguageContext);
   const id = useParams();
@@ -42,7 +41,7 @@ export default function Project() {
   }, [id, navigate]);
   return (
     <Book
-      children1={<ProjectsList projects={data}/>}
+      children1={<ProjectsList projects={data} />}
       children2={
         <div className="card_right">
           {data.map((project, ind) => {
@@ -61,7 +60,9 @@ export default function Project() {
                     <ul>
                       <li>
                         <span>{isGer ? "Website: " : "Сайт: "} </span>
-                        <Link to="">{project.url}</Link>
+                        <Link to={project.url} target="_blank">
+                          {project.url}
+                        </Link>
                       </li>
                       <li>
                         <span>
@@ -74,12 +75,16 @@ export default function Project() {
                         {isGer ? project.developer : project.developer_ru}
                       </li>
                       <li>
-                        <span>{isGer ? "Instrumente: " : "Инструменты: "} </span>
+                        <span>
+                          {isGer ? "Instrumente: " : "Инструменты: "}{" "}
+                        </span>
                         {project.instrumente}
                       </li>
                       <li>
                         <span>
-                          {isGer ? "Projektbeschreibung: " : "Описание проекта: "}
+                          {isGer
+                            ? "Projektbeschreibung: "
+                            : "Описание проекта: "}
                         </span>
                         {isGer ? project.discription : project.discription_ru}
                       </li>
@@ -88,7 +93,7 @@ export default function Project() {
                 </div>
               );
             }
-            return ""
+            return "";
           })}
           <div className="box_switch">
             <img src={backwardStep} alt="" onClick={handleBackwardStep} />
