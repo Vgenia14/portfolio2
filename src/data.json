@@ -1,7 +1,7 @@
 [
   {
     "id": "3",
-    "title": "Rezepten",
+    "title": "kochPlaner",
     "url": "https://kochplaner.vercel.app/",
     "photo": "Project_Recips_1.png",
     "date": "02.2023",
@@ -9,12 +9,12 @@
     "discription": "Für Erstellung der eigenen Rezepten. Ich arbeite weiter an diesem Projekt und werde es in meiner Freizeit weiterentwickeln",
     "developer": "alleine",
     "developer_ru": "самостоятельно",
-    "title_ru": "рецепты",
+    "title_ru": "kochPlaner",
     "discription_ru": "создание своих собственных рецептов. Продолжаю работать над этим проектом в свободное время "
   },
   {
     "id": "2",
-    "title": "Spotify",
+    "title": "spotify",
     "url": "https://mini-project-spotyfy.vercel.app/",
     "photo": "Project_Spotify_1.png",
     "date": "12.2022",
@@ -31,12 +31,12 @@
     "title": "tindog-page",
     "url": "https://tindog-page.vercel.app/",
     "photo": "tindog_tablet.png",
-    "date": ".........",
+    "date": "09.2022",
     "instrumente": "HTML, CSS, Bootstrap",
-    "discription": ".........",
-    "developer": ".........",
-    "developer_ru": "09.2022",
+    "discription": "",
+    "developer": "",
+    "developer_ru": "",
     "title_ru": "tindog-page ",
-    "discription_ru": "........."
+    "discription_ru": ""
   }
 ]
