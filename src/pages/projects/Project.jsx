@@ -36,7 +36,7 @@ export default function Project() {
 
   useEffect(() => {
     if (id.id === undefined) {
-      navigate(`/projects/1`);
+      navigate(`/projects/${data.length}`);
     }
   }, [id, navigate]);
   return (
