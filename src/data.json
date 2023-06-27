@@ -38,5 +38,19 @@
     "developer_ru": "",
     "title_ru": "tindog-page ",
     "discription_ru": ""
+  },
+
+  {
+    "id": "4",
+    "title": "ENEFilm",
+    "url": "https://enefilm.onrender.com/",
+    "photo": "Project_Recips_1.png",
+    "date": "06.2023",
+    "instrumente": "React JS, MUI, Express, NodeJS, MongoDB, Redux ",
+    "discription": "die Web-Seite ENEFilm wurde entwickelt, um Informationen und Bewertungen zu Filmen, Serien und Schauspielern zu finden und eine persönliche Liste mit Lieblingsfilmen zu erstellen. Es war das Abschlussprojekt der Weiterbildung im Bereich Webentwicklung",
+    "developer": "in einer Gruppe von 3 Personen",
+    "developer_ru": "в группе из 3-х человек",
+    "title_ru": "ENEFilm",
+    "discription_ru": "веб-сайт ENEFilm был разработан для поиска информации и отзывов о фильмах, сериалах и актерах, а также для создания персонального списка любимых фильмов. Это был завершающий проект дополнительного образования в области веб-разработки."
   }
 ]

@@ -18,7 +18,7 @@ export default function ProjectsList({ projects }) {
                 <span>({project.date}) </span>
               </h2>
 
-              <p className="id_number">{project.id}</p>
+              {/* <p className="id_number">{project.id}</p> */}
             </NavLink>
 
             <button>
