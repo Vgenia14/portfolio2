@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Home.css";
 import Book from "../components/Book";
 import { LanguageContext } from "../context/LangContext";
-import myFoto from "../svg/ich2.jpg"
+import myFoto from "../svg/Foto_Hemd.jpg"
 // import { useNavigate } from "react-router-dom";
 
 export default function Home() {
