@@ -62,14 +62,14 @@ export default function Contacts() {
               <p>PrygEvgeniia</p>
             </Link>
             <Link
-              to="mailto:vgenia14@gmail.com"
+              to="mailto:peevgwork@gmail.com"
               target="_blank"
               className="box_link_contact"
             >
               <div>
                 <img src={emailIMG} alt="" />
               </div>
-              <p>Vgenia14@gmail.com</p>
+              <p>peevgwork@gmail.com</p>
             </Link>
             <Link
               to="https://github.com/Vgenia14"
