@@ -4,12 +4,12 @@
     "icon": "user-graduate-solid",
     "skillsTitle": "Abschluss",
     "discription": [
-      "2022-2023 - Webentwicklung - Weiterbildung (DCI - Digital Career Institute)",
+      "2022-2023 (momentan mache) Webentwicklung - Weiterbildung (DCI - Digital Career Institute)",
       "2000-2004 - Software für Rechentechnik und Automatisierungssysteme (Technikum für Informatik und Rechentechnik in Russland"
     ],
     "skillsTitle_ru": "образование",
     "discription_ru": [
-      "2022-2023 - Веб-программирование - Weiterbildung (DCI - Digital Career Institute)",
+      "2022-2023 (в настоящее время) Веб-программирование - Weiterbildung (DCI - Digital Career Institute)",
       "2000-2004 - Программное обеспечение вычислительной техники и автоматизированнызх систем (Техникум информатики и вычислительной техники, России)"
     ]
   },
@@ -20,7 +20,7 @@
     "discription": [
       "HTML",
       "CSS, SASS, SCSS",
-      "Bootstrap", "MUI"
+      "Bootstrap",
       "JavaScript, TypeScript",
       "React",
       "Firebase",
@@ -31,7 +31,7 @@
     "discription_ru": [
       "HTML",
       "CSS, SASS, SCSS",
-      "Bootstrap", "MUI"
+      "Bootstrap",
       "JavaScript, TypeScript",
       "React",
       "Firebase",
@@ -46,13 +46,13 @@
     "discription": [
       "Russisch - Muttersprache",
       "Deutsch - C1",
-      "Englisch - A2",
+      "Englisch - A1",
       "die russische und deutsche Gebärdensprache"
     ],
     "discription_ru": [
       "русский  - родной язык",
       "немецкий - С1",
-      "английский - А2",
+      "английский - А1",
       "русский и немецкий жестовый язык"
     ],
     "skillsTitle_ru": "Языки"
@@ -63,12 +63,14 @@
     "skillsTitle": "Freizeit",
     "discription": [
       "verbringe gerne Zeit mit Freunde",
-      "liebe es, in der Natur zu sein"
+      "liebe es, in der Natur zu sein",
+      "auch mache gerne etwas mit eigenen Händen: nähen, Postkarten basteln und andere Dinge"
     ],
     "skillsTitle_ru": "Свободное время",
     "discription_ru": [
       "нравится проводить время с друзьями",
-      "люблю бывать на природе"
+      "люблю бывать на природе",
+      "нравится делать что-то своими руками: шить, открытки и другое"
     ]
   }
 ]
