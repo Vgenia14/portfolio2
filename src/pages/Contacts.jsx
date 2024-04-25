@@ -69,7 +69,7 @@ export default function Contacts() {
               <div>
                 <img src={emailIMG} alt="" />
               </div>
-              <p>peevgwork@gmail.com</p>
+              <p>Peevgwork@gmail.com</p>
             </Link>
             <Link
               to="https://github.com/Vgenia14"
