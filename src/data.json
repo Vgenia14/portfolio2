@@ -1,30 +1,4 @@
 [
-   {
-    "id": "1",
-    "title": "ENEFilm",
-    "url": "https://enefilm.onrender.com/",
-    "photo": "Project_Recips_1.png",
-    "date": "06.2023",
-    "instrumente": "React JS, MUI, Express, NodeJS, MongoDB, Redux ",
-    "discription": "die Web-Seite ENEFilm wurde entwickelt, um Informationen und Bewertungen zu Filmen, Serien und Schauspielern zu finden und eine persönliche Liste mit Lieblingsfilmen zu erstellen. Es war das Abschlussprojekt der Weiterbildung im Bereich Webentwicklung",
-    "developer": "in einer Gruppe von 3 Personen",
-    "developer_ru": "в группе из 3-х человек",
-    "title_ru": "ENEFilm",
-    "discription_ru": "веб-сайт ENEFilm был разработан для поиска информации и отзывов о фильмах, сериалах и актерах, а также для создания персонального списка любимых фильмов. Это был завершающий проект дополнительного образования в области веб-разработки."
-  },
-    {
-    "id": "2",
-    "title": "Portfolio",
-    "url": "https://prygevgeniia.vercel.app/",
-    "photo": "Project_Recips_1.png",
-    "date": "04.2023",
-    "instrumente": "HTML, CSS, React",
-    "discription": "",
-    "developer": "alleine",
-    "developer_ru": "самостоятельно",
-    "title_ru": "Portfolio",
-    "discription_ru": ""
-  },
   {
     "id": "3",
     "title": "kochPlaner",
@@ -39,7 +13,7 @@
     "discription_ru": "создание своих собственных рецептов. Продолжаю работать над этим проектом в свободное время "
   },
   {
-    "id": "4",
+    "id": "2",
     "title": "spotify",
     "url": "https://mini-project-spotyfy.vercel.app/",
     "photo": "Project_Spotify_1.png",
@@ -51,8 +25,9 @@
     "title_ru": "Spotify",
     "discription_ru": ""
   },
+
   {
-    "id": "5",
+    "id": "1",
     "title": "tindog-page",
     "url": "https://tindog-page.vercel.app/",
     "photo": "tindog_tablet.png",
@@ -63,5 +38,19 @@
     "developer_ru": "",
     "title_ru": "tindog-page ",
     "discription_ru": ""
+  },
+
+  {
+    "id": "4",
+    "title": "ENEFilm",
+    "url": "https://enefilm.onrender.com/",
+    "photo": "Project_Recips_1.png",
+    "date": "06.2023",
+    "instrumente": "React JS, MUI, Express, NodeJS, MongoDB, Redux ",
+    "discription": "die Web-Seite ENEFilm wurde entwickelt, um Informationen und Bewertungen zu Filmen, Serien und Schauspielern zu finden und eine persönliche Liste mit Lieblingsfilmen zu erstellen. Es war das Abschlussprojekt der Weiterbildung im Bereich Webentwicklung",
+    "developer": "in einer Gruppe von 3 Personen",
+    "developer_ru": "в группе из 3-х человек",
+    "title_ru": "ENEFilm",
+    "discription_ru": "веб-сайт ENEFilm был разработан для поиска информации и отзывов о фильмах, сериалах и актерах, а также для создания персонального списка любимых фильмов. Это был завершающий проект дополнительного образования в области веб-разработки."
   }
 ]
