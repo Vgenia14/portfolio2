@@ -31,20 +31,20 @@ export default function Home() {
             <h2>
               {isGer ? "Ich bin eine " : "я "}
               <span>
-                {isGer ? "Anfänger - Webentwicklerin" : "Веб-разработчик"}{" "}
+                {isGer ? "Webentwicklerin" : "Веб-разработчик"}{" "}
               </span>
             </h2>
             <p>
               <span>{isGer ? "Zurzeit" : "На сегодняшний день"} </span>
               {isGer
-                ? " kann ich das Frontend einer Webseite entwickeln. Momentan lerne ich Backend bei meiner Weiterbildung. Nach dem Abschluss werde ich als Fullstack-Entwickler zertifiziert."
-                : "могу разработать фронтенд веб-сайта. В настоящее время изучаю бэкэнд. После окончания курса получу сертификат full stack разработчик."}
+                ? "auf der Suche nach neuen beruflichen Herausforderungen."
+                : "В поисках новых профессиональных вызовов."}
             </p>
             <p>
               <span>{isGer ? "Kurz über mich:" : "Немного о себе"} </span>
               {isGer
-                ? " lerne gerne etwas Neues, setze neue Ideen um und bin leidenschaftlich bei meiner Arbeit."
-                : " люблю узнавать что-то новое, воплощать в жизнь новые идеи и очень нравится заниматься разработкой сайтов."}
+                ? " bin leidenschaftlich bei meiner Arbeit, lerne gerne etwas Neues und setze neue Ideen um."
+                : " очень нравится заниматься разработкой сайтов, люблю узнавать что-то новое, воплощать в жизнь новые идеи."}
             </p>
           </div>
         </div>
