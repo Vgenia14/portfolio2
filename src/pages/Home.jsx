@@ -18,7 +18,7 @@ export default function Home() {
       children1={
         <div className="container_home_left">
           <img src={myFoto} alt="" />
-          <h2>{isGer ? "Hallo!!!" : "Привет!!!"}</h2>
+          <h2>{isGer ? "Hallo" : "Привет!!!"}</h2>
           <h2>
             {isGer ? "Ich heiße " : "меня зовут "}
             <span> {isGer ? "Evgeniia" : "Евгения"}</span>
